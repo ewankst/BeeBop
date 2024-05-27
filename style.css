@@ -10,6 +10,20 @@ body {
     font-size: 32px;
 }
 
+.TitreTresGrandRafaella {
+    font-family: "rafaella", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+}
+
+.TitreMoyenRafaella {
+    font-family: "rafaella", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
 .TitreGrandPoppins {
     font-family: "poppins", sans-serif;
     font-size: 32px;
