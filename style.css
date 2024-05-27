@@ -10,26 +10,33 @@ body {
     font-size: 32px;
 }
 
-.TitreMoyenRaf {
-    font-family: "rafaella", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 24px;
+.blur {
+    -webkit-filter: blur(200px);
+    -moz-filter: blur(200px);
+    -o-filter: blur(200px);
+    -ms-filter: blur(200px);
+    filter: blur(200px);
 }
 
-.TitreGrand {
-    font-family: "Poppins", sans-serif;
-    font-weight: ;
+.circle1 {
+   
+    width: 451px;
+    height: 451px;
+    border-radius: 50%;
+    background-color: #BB4DCD ;
+    position: fixed;
+    margin-left: -100%;
+    margin-top: 80%;
+   
 }
-
-.logotexte {
-    display: flex;
-    flex-direction: row;
-    padding-top: 5.188rem;
-    padding-left: 4.313rem;
-    padding-right: 4.313rem;
-}
-
-.textelogo{
-    padding: 1rem;
+.circle2 {
+   
+    width: 451px;
+    height: 451px;
+    border-radius: 50%;
+    background-color: #BB4DCD ;
+    position: fixed;
+    margin-left: 130%;
+    margin-top: -150%;
+   
 }
