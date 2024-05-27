@@ -36,6 +36,24 @@ body {
     font-weight: 600;
 }
 
+.ParagrapheMedium {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.Paragraphe {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.Paragraphe {
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+
 .blur {
     -webkit-filter: blur(200px);
     -moz-filter: blur(200px);
