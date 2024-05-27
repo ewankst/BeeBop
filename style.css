@@ -21,3 +21,15 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: ;
 }
+
+.logotexte {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5.188rem;
+    padding-left: 4.313rem;
+    padding-right: 4.313rem;
+}
+
+.textelogo{
+    padding: 1rem;
+}
