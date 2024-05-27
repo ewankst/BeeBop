@@ -4,15 +4,33 @@ body {
 }
 
 
-
-.logotexte {
-    display: flex;
-    flex-direction: row;
-    padding-top: 5.188rem;
-    padding-left: 4.313rem;
-    padding-right: 4.313rem;
+.blur {
+    -webkit-filter: blur(200px);
+    -moz-filter: blur(200px);
+    -o-filter: blur(200px);
+    -ms-filter: blur(200px);
+    filter: blur(200px);
 }
 
-.textelogo{
-    padding: 1rem;
+.circle1 {
+   
+    width: 451px;
+    height: 451px;
+    border-radius: 50%;
+    background-color: #BB4DCD ;
+    position: fixed;
+    margin-left: -100%;
+    margin-top: 80%;
+   
+}
+.circle2 {
+   
+    width: 451px;
+    height: 451px;
+    border-radius: 50%;
+    background-color: #BB4DCD ;
+    position: fixed;
+    margin-left: 130%;
+    margin-top: -150%;
+   
 }
