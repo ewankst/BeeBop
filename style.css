@@ -10,6 +10,18 @@ body {
     font-size: 32px;
 }
 
+.TitreGrandPoppins {
+    font-family: "poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.TitreTresGrandPoppins {
+    font-family: "poppins", sans-serif;
+    font-size: 43px;
+    font-weight: 600;
+}
+
 .blur {
     -webkit-filter: blur(200px);
     -moz-filter: blur(200px);
