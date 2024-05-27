@@ -1,7 +1,15 @@
 body {
     background-color: #363636;
     color: #fff;
+    margin: 2.25rem;
 }
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 
 .TitreGrandRafaella {
     font-family: "rafaella", sans-serif;
@@ -105,18 +113,18 @@ body {
 .logotexte {
     display: flex;
     flex-direction: row;
-    padding-top: 5.188rem;
-    padding-left: 4.313rem;
-    padding-right: 4.313rem;
+    justify-content: center;
+    margin: 2rem;
 }
 
 .textelogo{
-    padding: 1rem;
+    line-height: 70%;
 }
 
 label {
-
+   
     display: block;
+
     font:
       1rem 'Poppins',
  
@@ -128,9 +136,21 @@ label {
   }
   
 .input{
+    width: 100%;
+    border-radius: 0.313rem;
     padding-top: 0.75rem;
-    padding-right: 13.188rem;
-    padding-left: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-color: #BB4DCD;
+    border-width:0.188rem;
+    background-color: #363636;
+    color: #fff;
+}
+
+.input:focus{
+    width: 100%;
+    border: 2px;
+    border-radius: 0.313rem;
+    padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     border-color: #BB4DCD;
     border-width:0.188rem;
