@@ -148,12 +148,29 @@ label {
 
 .input:focus{
     width: 100%;
-    border: 2px;
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-    border-color: #BB4DCD;
+    border-color: #D898E3;
     border-width:0.188rem;
     background-color: #363636;
     color: #fff;
 }
+
+.boutonviolet {
+            width: 100%;
+            border: none; 
+            border-radius: 0.313rem;
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+            color: #fff;
+            background-color: #BB4DCD;
+            text-align: center; 
+            display: inline-block; 
+            font-size: 1rem; 
+            text-decoration: none; 
+        }
+
+ .boutonviolet:active {
+            background-color: #D898E3;
+        }
