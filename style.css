@@ -195,15 +195,36 @@ label {
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-    color: #fff;
+    color: #363636;
     background-color: #FCCB4E;
     text-align: center; 
     display: inline-block; 
     font-size: 1rem; 
     text-decoration: none; 
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .boutonjaune:active {
     background-color: #FFE194
     ;
+}
+
+.boutontransparent {
+    width: 100%;
+    border: none; 
+    border-radius: 0.313rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #fff;
+    background-color: transparent;
+    text-align: center; 
+    display: inline-block; 
+    font-size: 1rem; 
+    text-decoration: none; 
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 24px;
 }
