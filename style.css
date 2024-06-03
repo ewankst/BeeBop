@@ -55,8 +55,37 @@ body {
     font-family: "poppins", sans-serif;
     font-size: 16px;
     font-weight: 400
+    
 }
 
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.button1 {
+    background-color: #fCCB4E;
+    color: #363636;
+    border: none;
+    padding: 10px 2em 10px 2em;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    
+}
+
+.button2 {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 2em 10px 2em;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    
+}
 
 .blur {
     -webkit-filter: blur(200px);
