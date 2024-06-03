@@ -42,3 +42,18 @@ h1 {
 .four {
     background-color: greenyellow;
 }
+
+
+.post-bar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    gap: 1.5rem;
+    margin-left: 21.1rem;
+    align-items: center;
+    margin-top: 17.1rem;
+}
+
+.icon-post-bar {
+    max-width: 2.5rem;
+}
