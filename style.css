@@ -86,7 +86,9 @@ html {
     font-size: 14px;
 }
 
-
+.miel {
+    width: 100%;
+}
 
 .blur {
     -webkit-filter: blur(200px);
@@ -135,6 +137,9 @@ html {
     font-size: 43px;
     font-weight: 700;
     text-transform: uppercase;
+    line-height: 36px;
+    margin: 0;
+    padding-top: 6.594rem;
 }
 
 .landing-title--line {
@@ -150,12 +155,15 @@ html {
     font-weight: 400;
     font-style: normal;
     font-size: 37px;
+    text-transform: capitalize;
+    
 }
 
 .landing-subtitle {
     font-family: "poppins", sans-serif;
     font-weight: 400;
     font-size: 16px;
+    margin: 0;
 }
 
 .create-account-button {
@@ -164,15 +172,16 @@ html {
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-    color: #000;
+    color: #363636;
     background-color: #FCCB4E;
     text-align: center; 
     display: inline-block; 
     font-size: 1rem; 
     text-decoration: none;
     font-family: "poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 14px;
+    margin-top: 5.094rem;
 }
 
 .connect-to-account-button {
@@ -187,8 +196,9 @@ html {
     font-size: 1rem; 
     text-decoration: none;
     font-family: "poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 14px;
+    margin-top: 1.5rem;
 }
 
 .ou {
@@ -196,6 +206,7 @@ html {
     font-weight: 200;
     font-size: 14px;
     text-align: center;
+    margin: 0;
 }
 
 label {
@@ -270,6 +281,7 @@ label {
   align-items: center;   
   height: 3,6vh;
   gap: 2.13rem;
+  margin-top: 1.5rem;
 }
 
 .boutonjaune {
