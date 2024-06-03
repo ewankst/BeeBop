@@ -166,6 +166,28 @@ html {
     font-size: 14px;
 }
 
+.connect-to-account-button {
+    width: 100%;
+    border: none; 
+    border-radius: 0.313rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #fff;
+    text-align: center; 
+    display: inline-block; 
+    font-size: 1rem; 
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.ou {
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+}
 
 
 
