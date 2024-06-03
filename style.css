@@ -1,7 +1,8 @@
 body {
     background-color: #363636;
     color: #fff;
-    margin: 2.25rem;
+    margin: 0;
+    background-image: url(background.png);
 }
 
 html {
@@ -256,6 +257,19 @@ label {
  .boutonviolet:active {
             background-color: #D898E3;
         }
+
+
+.main {
+    padding: 2.25rem;
+}
+
+.link {
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  height: 3,6vh;
+  gap: 2.13rem;
+}
 
 .boutonjaune {
     width: 100%;
