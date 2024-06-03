@@ -65,7 +65,7 @@ html {
     font-size: 16px;
 }
 
-.Paragraphe {
+.ParagrapheGras {
     font-family: "poppins", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -235,3 +235,21 @@ label {
             background-color: #D898E3;
         }
 
+.boutonjaune {
+    width: 100%;
+    border: none; 
+    border-radius: 0.313rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #fff;
+    background-color: #FCCB4E;
+    text-align: center; 
+    display: inline-block; 
+    font-size: 1rem; 
+    text-decoration: none; 
+}
+
+.boutonjaune:active {
+    background-color: #FFE194
+    ;
+}
