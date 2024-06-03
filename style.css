@@ -7,7 +7,8 @@ html{
 }
 body {
     color: #fff;
-    margin: 2.25rem;
+    margin: 0;
+    background-image: url(background.png);
 }
 
 
@@ -30,7 +31,7 @@ html {
     font-family: "rafaella", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 37px;
+    font-size: 36px;
 }
 
 .TitreMoyenRafaella {
@@ -44,26 +45,26 @@ html {
     font-family: "rafaella", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 31px;
+    font-size: 32px;
 }
 
 .ComeFeelTheMusicRafaella {
     font-family: "rafaella", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 15px;
+    font-size: 16px;
     color: #FCCB4E;
 }
 
 .TitreGrandPoppins {
     font-family: "poppins", sans-serif;
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .TitreTresGrandPoppins {
     font-family: "poppins", sans-serif;
-    font-size: 43px;
+    font-size: 44px;
     font-weight: 600;
 }
 
@@ -129,6 +130,74 @@ html {
     line-height: 70%;
 }
 
+.landing-title {
+    font-family: "poppins", sans-serif;
+    font-size: 43px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.landing-title--line {
+    font-family: "poppins", sans-serif;
+    font-size: 43px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.landing-title--raf {
+        font-family: "rafaella", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+}
+
+.landing-subtitle {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.create-account-button {
+    width: 100%;
+    border: none; 
+    border-radius: 0.313rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #000;
+    background-color: #FCCB4E;
+    text-align: center; 
+    display: inline-block; 
+    font-size: 1rem; 
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.connect-to-account-button {
+    width: 100%;
+    border: none; 
+    border-radius: 0.313rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #fff;
+    text-align: center; 
+    display: inline-block; 
+    font-size: 1rem; 
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.ou {
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+}
+
 label {
    
     display: block;
@@ -152,6 +221,9 @@ label {
     border-width:0.188rem;
     background-color: #363636;
     color: #fff;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 .input:focus{
@@ -176,12 +248,29 @@ label {
             text-align: center; 
             display: inline-block; 
             font-size: 1rem; 
-            text-decoration: none; 
+            text-decoration: none;
+            font-family: "poppins", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+
         }
 
  .boutonviolet:active {
             background-color: #D898E3;
         }
+
+
+.main {
+    padding: 2.25rem;
+}
+
+.link {
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  height: 3,6vh;
+  gap: 2.13rem;
+}
 
 .boutonjaune {
     width: 100%;
@@ -189,15 +278,36 @@ label {
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-    color: #fff;
+    color: #363636;
     background-color: #FCCB4E;
     text-align: center; 
     display: inline-block; 
     font-size: 1rem; 
     text-decoration: none; 
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .boutonjaune:active {
     background-color: #FFE194
     ;
+}
+
+.boutontransparent {
+    width: 100%;
+    border: none; 
+    border-radius: 0.313rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #fff;
+    background-color: transparent;
+    text-align: center; 
+    display: inline-block; 
+    font-size: 1rem; 
+    text-decoration: none; 
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 24px;
 }
