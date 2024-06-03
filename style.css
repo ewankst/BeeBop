@@ -1,15 +1,50 @@
 body {
     background-color: #363636;
     color: #fff;
-    margin: 0;
+    margin: 2.25rem;
 }
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 
 .TitreGrandRafaella {
     font-family: "rafaella", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 32px;
-    display: block;
+}
+
+.TitreTresGrandRafaella {
+    font-family: "rafaella", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 37px;
+}
+
+.TitreMoyenRafaella {
+    font-family: "rafaella", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.BeebopRafaella {
+    font-family: "rafaella", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 31px;
+}
+
+.ComeFeelTheMusicRafaella {
+    font-family: "rafaella", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #FCCB4E;
 }
 
 .TitreGrandPoppins {
@@ -22,70 +57,27 @@ body {
     font-family: "poppins", sans-serif;
     font-size: 43px;
     font-weight: 600;
-    letter-spacing: -1px;
-
-    line-height: 33px;
 }
 
-
-.main {
-    padding: 36px;
-}
-
-.landing-title {
+.ParagrapheMedium {
     font-family: "poppins", sans-serif;
-    font-size: 43px;
-    font-weight: 700;
-    letter-spacing: -1px;
-    line-height: 33px;
-}
-
-.landing-title--line {
-    display: block;
-}
-
-.landing-title--raf {
-    font-family: "rafaella", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    font-size: 37px;
-}
-
-.landing-subtitle {
-    font-family: "poppins", sans-serif;
     font-size: 16px;
-    font-weight: 400
-    
 }
 
-.buttons {
-    display: flex;
-    flex-direction: column;
-}
-
-.button1 {
-    background-color: #fCCB4E;
-    color: #363636;
-    border: none;
-    padding: 10px 2em 10px 2em;
+.Paragraphe {
     font-family: "poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    border-radius: 8px;
-    
+    font-weight: 400;
+    font-size: 14px;
 }
 
-.button2 {
-    background-color: transparent;
-    color: #fff;
-    border: none;
-    padding: 10px 2em 10px 2em;
+.Paragraphe {
     font-family: "poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    border-radius: 8px;
-    
+    font-weight: 200;
+    font-size: 14px;
 }
+
+
 
 .blur {
     -webkit-filter: blur(200px);
@@ -118,4 +110,67 @@ body {
    
 }
 
+.logotexte {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+}
 
+.textelogo{
+    line-height: 70%;
+}
+
+label {
+   
+    display: block;
+
+    font:
+      1rem 'Poppins',
+ 
+  }
+  
+  input,
+  label {
+    margin: 0.75rem 0;
+  }
+  
+.input{
+    width: 100%;
+    border-radius: 0.313rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-color: #BB4DCD;
+    border-width:0.188rem;
+    background-color: #363636;
+    color: #fff;
+}
+
+.input:focus{
+    width: 100%;
+    border-radius: 0.313rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-color: #D898E3;
+    border-width:0.188rem;
+    background-color: #363636;
+    color: #fff;
+}
+
+.boutonviolet {
+            width: 100%;
+            border: none; 
+            border-radius: 0.313rem;
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+            color: #fff;
+            background-color: #BB4DCD;
+            text-align: center; 
+            display: inline-block; 
+            font-size: 1rem; 
+            text-decoration: none; 
+        }
+
+ .boutonviolet:active {
+            background-color: #D898E3;
+        }
