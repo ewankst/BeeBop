@@ -23,7 +23,7 @@ html {
     font-family: "rafaella", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 37px;
+    font-size: 36px;
 }
 
 .TitreMoyenRafaella {
@@ -37,14 +37,14 @@ html {
     font-family: "rafaella", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 31px;
+    font-size: 32px;
 }
 
 .ComeFeelTheMusicRafaella {
     font-family: "rafaella", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 15px;
+    font-size: 16px;
     color: #FCCB4E;
 }
 
@@ -56,7 +56,7 @@ html {
 
 .TitreTresGrandPoppins {
     font-family: "poppins", sans-serif;
-    font-size: 43px;
+    font-size: 44px;
     font-weight: 600;
 }
 
@@ -189,13 +189,6 @@ html {
     font-size: 14px;
     text-align: center;
 }
-
-
-
-
-
-
-
 
 label {
    
