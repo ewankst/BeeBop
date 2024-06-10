@@ -8,3 +8,4 @@ bouton.addEventListener("click", function(){
 miel.addEventListener("animationend", function(){
     document.location = "connexionEmail.html" ;
 })
+
