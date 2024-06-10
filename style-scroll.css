@@ -53,6 +53,7 @@ body {
 }
 
 
+:root{
     --clr-bgr: #252A34;
     --clr-ctt: #191c20;
     --clr-enh: #BB4DCD;
