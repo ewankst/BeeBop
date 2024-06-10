@@ -1,10 +1,11 @@
-html{
-    background-image: radial-gradient(circle at bottom left, rgba(187,77,205,1) 0%, rgba(54,54,54,1) 75%);
+html {
+    background-image: radial-gradient(circle at bottom left, rgba(187, 77, 205, 1) 0%, rgba(54, 54, 54, 1) 75%);
     background-size: 100%;
     background-color: #363636;
     background-repeat: no-repeat;
     height: 100vh;
 }
+
 body {
     color: #fff;
     margin: 0;
@@ -14,10 +15,13 @@ body {
 
 html {
     box-sizing: border-box;
-  }
-  *, *:before, *:after {
+}
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
-  }
+}
 
 .TitreGrandRafaella {
     font-family: "rafaella", sans-serif;
@@ -89,8 +93,48 @@ html {
 }
 
 .miel {
-    width: 100%;
+    position: fixed;
+    left: -2rem;
+    top: -77rem;
 }
+
+.miel-animation {
+    animation-name: miel;
+    animation-duration: 1s;
+}
+
+
+
+@keyframes miel {
+    0% {
+        top: -77rem;
+    }
+
+    100% {
+        top: -20rem;
+    }
+
+}
+
+.miel2 {
+    position: fixed;
+    animation: miel2 1s;
+    animation-fill-mode: both;
+
+    left: -2rem
+}
+
+@keyframes miel2 {
+    0% {
+        top: -20rem;
+    }
+
+    100% {
+        top: 80rem;
+    }
+
+}
+
 
 .blur {
     -webkit-filter: blur(200px);
@@ -101,26 +145,27 @@ html {
 }
 
 .circle1 {
-   
+
     width: 451px;
     height: 451px;
     border-radius: 50%;
-    background-color: #BB4DCD ;
+    background-color: #BB4DCD;
     position: fixed;
     margin-left: -100%;
     margin-top: 80%;
-   
+
 }
+
 .circle2 {
-   
+
     width: 451px;
     height: 451px;
     border-radius: 50%;
-    background-color: #BB4DCD ;
+    background-color: #BB4DCD;
     position: fixed;
     margin-left: 130%;
     margin-top: -150%;
-   
+
 }
 
 .logotexte {
@@ -130,7 +175,7 @@ html {
     margin: 2rem;
 }
 
-.textelogo{
+.textelogo {
     line-height: 70%;
 }
 
@@ -141,7 +186,7 @@ html {
     text-transform: uppercase;
     line-height: 36px;
     margin: 0;
-    padding-top: 6.594rem;
+    padding-top: 20rem;
 }
 
 .landing-title--line {
@@ -153,12 +198,12 @@ html {
 }
 
 .landing-title--raf {
-        font-family: "rafaella", sans-serif;
+    font-family: "rafaella", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 37px;
     text-transform: capitalize;
-    
+
 }
 
 .landing-subtitle {
@@ -170,32 +215,35 @@ html {
 
 .create-account-button {
     width: 100%;
-    border: none; 
+    border: none;
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     color: #363636;
     background-color: #FCCB4E;
-    text-align: center; 
-    display: inline-block; 
-    font-size: 1rem; 
-    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
     font-family: "poppins", sans-serif;
     font-weight: 700;
     font-size: 14px;
     margin-top: 5.094rem;
 }
 
+.create-account-button:hover {
+    background-color: #FFE194;
+}
+
 .connect-to-account-button {
     width: 100%;
-    border: none; 
+    border: none;
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     color: #fff;
-    text-align: center; 
-    display: inline-block; 
-    font-size: 1rem; 
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
     text-decoration: none;
     font-family: "poppins", sans-serif;
     font-weight: 700;
@@ -212,26 +260,26 @@ html {
 }
 
 label {
-   
+
     display: block;
 
     font:
-      1rem 'Poppins',
- 
-  }
-  
-  input,
-  label {
+        1rem 'Poppins',
+
+}
+
+input,
+label {
     margin: 0.75rem 0;
-  }
-  
-.input{
+}
+
+.input {
     width: 100%;
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     border-color: #BB4DCD;
-    border-width:0.188rem;
+    border-width: 0.188rem;
     background-color: #363636;
     color: #fff;
     font-family: "poppins", sans-serif;
@@ -239,38 +287,38 @@ label {
     font-size: 14px;
 }
 
-.input:focus{
+.input:focus {
     width: 100%;
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     border-color: #D898E3;
-    border-width:0.188rem;
+    border-width: 0.188rem;
     background-color: #363636;
     color: #fff;
 }
 
 .boutonviolet {
-            width: 100%;
-            border: none; 
-            border-radius: 0.313rem;
-            padding-top: 0.75rem;
-            padding-bottom: 0.75rem;
-            color: #fff;
-            background-color: #BB4DCD;
-            text-align: center; 
-            display: inline-block; 
-            font-size: 1rem; 
-            text-decoration: none;
-            font-family: "poppins", sans-serif;
-            font-weight: 400;
-            font-size: 14px;
+    width: 100%;
+    border: none;
+    border-radius: 0.313rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #fff;
+    background-color: #BB4DCD;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 
-        }
+}
 
- .boutonviolet:active {
-            background-color: #D898E3;
-        }
+.boutonviolet:active {
+    background-color: #D898E3;
+}
 
 
 .main {
@@ -278,48 +326,47 @@ label {
 }
 
 .link {
-  display: flex;
-  justify-content: center; 
-  align-items: center;   
-  height: 3,6vh;
-  gap: 2.13rem;
-  margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3, 6vh;
+    gap: 2.13rem;
+    margin-top: 1.5rem;
 }
 
 .boutonjaune {
     width: 100%;
-    border: none; 
+    border: none;
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     color: #363636;
     background-color: #FCCB4E;
-    text-align: center; 
-    display: inline-block; 
-    font-size: 1rem; 
-    text-decoration: none; 
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: none;
     font-family: "poppins", sans-serif;
     font-weight: 700;
     font-size: 16px;
 }
 
 .boutonjaune:active {
-    background-color: #FFE194
-    ;
+    background-color: #FFE194;
 }
 
 .boutontransparent {
     width: 100%;
-    border: none; 
+    border: none;
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     color: #fff;
     background-color: transparent;
-    text-align: center; 
-    display: inline-block; 
-    font-size: 1rem; 
-    text-decoration: none; 
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: none;
     font-family: "poppins", sans-serif;
     font-weight: 700;
     font-size: 16px;
