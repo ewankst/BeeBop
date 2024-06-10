@@ -325,3 +325,121 @@ label {
     font-size: 16px;
     margin-top: 24px;
 }
+
+:root{
+    --clr-bgr: #252A34;
+    --clr-ctt: #191c20;
+    --clr-enh: #ff2e63;
+    --clr-fnt: #EAEAEA;
+    --clr-shd: #bbd2dd;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--clr-bgr);
+}
+
+.myBox{
+    background-color: var(--clr-ctt);
+    height: 10rem;
+    aspect-ratio: 1;
+    border-radius: 5rem 5rem 0 0;
+    position: fixed;
+    bottom: 4rem;
+    transition: all 0.3s ease-in-out; 
+    z-index: -1;
+    margin: 0 auto;
+}
+
+.myBox::before{
+    content:"";
+    position:absolute;
+
+    background-color: transparent;
+    left: -3.6rem;
+    bottom: 6rem;
+    height: 2.5rem;
+    aspect-ratio: 2 / 1;
+    border-radius: 0 0 2.5rem 0;
+    box-shadow: 2.5rem 0 0 0 var(--clr-ctt);
+    
+}
+
+.myBox::after{
+    content:"";
+    position:absolute;
+
+    background-color: transparent;
+    right: -3.6rem;
+    bottom: 6rem;
+    height: 2.5rem;
+    aspect-ratio: 2 / 1;
+    border-radius: 0 0 0 2.5rem;
+    box-shadow: -2.5rem 0 0 0 var(--clr-ctt);
+}
+
+nav{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+    color: var(--clr-fnt);
+    background-color: var(--clr-ctt);
+    height: 10rem;
+    aspect-ratio: 5/1;
+    font-size: 3rem;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+    
+}
+
+.myButton{
+    border: 3px solid currentColor;
+    border-radius: 50%;
+
+    aspect-ratio: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    aspect-ratio: 1;
+    transition: all 0.4s ease-in-out; 
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+input[type="radio"]:checked+.myButton{
+    color: var(--clr-enh);
+    transform:translateY(-4rem) scale(1.5) rotate(270deg);
+    background-color: var(--clr-ctt);
+}
+
+#fish-1:checked ~ .myBox{
+    transform: translateX(-10rem);
+}
+
+#fish-3:checked ~ .myBox{
+    transform: translateX(10rem);
+}
