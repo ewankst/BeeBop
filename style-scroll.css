@@ -34,10 +34,21 @@ h1 {
     color: #fff;
 }
 
+.one {
+    background-image: url(bg.svg);
+}
+
+.two {
+    background-image: url(bg.svg);
+}
+
+.three {
+    background-image: url(bg.svg);
+}
 
 
 .four {
-    background-color: greenyellow;
+    background-image: url(bg.svg);
 }
 
 
