@@ -4,7 +4,6 @@ html {
     background-color: #363636;
     background-repeat: no-repeat;
     height: 100vh;
-    position: fixed;
 }
 
 body {
@@ -32,7 +31,7 @@ html {
 }
 
 .TitreTresGrandRafaella {
-    font-family: "Rafaella";
+    font-family: "Rafaella", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 36px;
@@ -87,6 +86,12 @@ html {
     font-size: 16px;
 }
 
+.ParagrapheMediumGras {
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
 .ParagrapheGras {
     font-family: "poppins", sans-serif;
     font-weight: 400;
@@ -95,7 +100,7 @@ html {
 
 .Paragraphe {
     font-family: "poppins", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 14px;
 }
 
@@ -448,4 +453,71 @@ label {
     display: flex;
     flex-direction: row;
     gap: 1.25rem;
+}
+
+.options {
+    position: absolute;
+    margin-left: 20.4rem;
+}
+
+.gab-profil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.06rem;
+}
+
+.chiffres {
+    display: flex;
+    flex-direction: row;
+    gap: 1.88rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.profil-bar {
+    display: flex;
+    gap: 3.125rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.grille-post {
+    display: flex;
+    margin-top: 2.44rem;
+    margin-left: 2.25rem;
+    gap: 1rem;
+}
+
+.cards-post {
+    width: 5.9375rem;
+    height: 11.125rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+}
+
+.back {
+    margin-left: 2.25rem;
+    margin-top: 3.44rem;
+}
+
+.titre-premium {
+    margin-left: 2.25rem;
+    margin-top: 3.87rem;
+}
+
+.mielody-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1875rem;
+}
+
+.mielody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.875rem;
 }
