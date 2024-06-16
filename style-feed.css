@@ -1,82 +1,3 @@
-html{
-    background-image: radial-gradient(circle at bottom left, rgba(187,77,205,1) 0%, rgba(54,54,54,1) 75%);
-    background-size: 100%;
-    background-color: #363636;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-
-.container-scroll {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
-    width: 100%;
-}
-
-.post-bar {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    position: absolute;
-    gap: 1.5rem;
-    margin-left: 21.1rem;
-    align-items: center;
-    margin-top: 17.1rem;
-}
-
-.icon-post-bar {
-    max-width: 2.5rem;
-}
-
-.audio-progress-bar {
-    position: fixed;
-    margin-top: 45.4rem;
-    margin-bottom: 7.31rem;
-    align-items: center;
-}
-
-section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    
-}
-
-h1 {
-    color: #fff;
-}
-
-.one {
-    background-image: url(bg.svg);
-}
-
-.two {
-    background-image: url(bg.svg);
-
-}
-
-.three {
-    background-image: url(bg.svg);
-
-}
-
-
-.four {
-    background-image: url(bg.svg);
-
-}
-
-
-
 body {
     margin: 0;
     padding: 0;
@@ -186,7 +107,8 @@ a{
     align-items: center;
     height: 3.125rem;
     aspect-ratio: 1;
-    transition: all 0.4s ease-in-out; 
+     
+    animation: navanim all 0.4s ease-in-out;
 }
 
 input[type="radio"]{
@@ -199,25 +121,42 @@ input[type="radio"]:checked+.myButton{
     background-color: var(--clr-ctt);
 }
 
-#fish-1:checked ~ .myBox{
-    transform: translateX(-9.25rem);
+@keyframes navanim {
+    0% {
+        input[type="radio"]{
+            display: none;
+        }
+        
+        input[type="radio"]:checked+.myButton{
+            color: var(--clr-enh);
+            transform:translateY(-3rem) scale(1.5) rotate(360deg);
+            background-color: var(--clr-ctt);
+        }
+        #fish-1:checked ~ .myBox{
+            transform: translateX(-9.25rem);
+        }
+    }
+    100% {
+        input[type="radio"]{
+            display: none;
+        }
+        
+        input[type="radio"]:checked+.myButton{
+            color: var(--clr-enh);
+            transform:translateY(-3rem) scale(1.5) rotate(360deg);
+            background-color: var(--clr-ctt);
+        }
+        #fish-2:checked ~ .myBox{
+            transform: translateX(-4.7rem);
+        }
+    }
 }
 
-#fish-2:checked ~ .myBox{
-    transform: translateX(-4.7rem);
-}
 
-#fish-3:checked ~ .myBox{
-    transform: translateX(0rem);
-}
 
-#fish-4:checked ~ .myBox{
-    transform: translateX(4.7rem);
-}
-  
-#fish-5:checked ~ .myBox{
-    transform: translateX(9.25rem);
-}
+
+
+
   
 .nav {
     position: fixed;
