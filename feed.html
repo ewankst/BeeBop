@@ -3,42 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-feed.css">
-    <title>feed</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>feed</h1>
-    <nav>
-        <input type="radio" name="fish" id="fish-1" checked>
-        <a href="scroll.html" for="fish-1" class="myButton"> 
-           <img src="home-2.svg" alt="">
-        </a>
-       
-    
-        <input type="radio" name="fish" id="fish-2">
-       <a href="feed.html" for="fish-2" class="myButton">
-         <img src="grid-3.svg" alt="">
-       </a> 
-    
-        <input type="radio" name="fish" id="fish-3">
-        <a href="#" for="fish-3" class="myButton">
-            <img src="add-circle.svg" alt="">
-        </a>
-       
+    <div class="notif-messages">
+        <img src="notification.svg" alt="notif-icon">
+        <img src="messages-3.svg" alt="message-icon">
+    </div>
 
-        <input type="radio" name="fish" id="fish-4">
-        <a href="#" for="fish-4" class="myButton">
-            <img src="crown.svg" alt="">
-        </a>
+    <div class="search-bar">
+        <input type="search" class="site-search" name="q" placeholder="Rechercher...">
+        <button><img src="search.svg" alt="" class="search-icon"></button>
+    </div>
 
-        <input type="radio" name="fish" id="fish-5">
-        <a href="#" for="fish-5" class="myButton">
-            <img src="user.svg" alt="">
-        </a>
+    <div class="Suggestions">
+        <p class="TitreMoyenPoppins">Suggestions</p>
+            <div class="shorts">
+                <img src="card.svg" alt="card" class="cards">
+                <img src="card.svg" alt="card" class="cards">
+                <img src="card.svg" alt="card" class="cards">
+                <img src="card.svg" alt="card" class="cards">
+                <img src="card.svg" alt="card" class="cards">
+                <img src="card.svg" alt="card" class="cards">
+            </div>
+    </div>
 
-        <div class="myBox"></div>
-      </nav>
-
-    <script src="script.js"></script>
+    <div class="genres">
+        <p class="TitreMoyenPoppins">Genres</p>
+            <div class="bento-genre">
+                <div class="bento-haut">
+                    <img src="Rock.svg" alt="cards" class="card-bento-thin">
+                    <img src="Rap.svg" alt="cards" class="card-bento-large">
+                </div>
+                <div class="bento-mid">
+                    <img src="Pop.svg" alt="">
+                    <img src="Techno.svg" alt="">
+                </div>
+            </div>
+    </div>
 </body>
 </html>

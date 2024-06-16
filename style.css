@@ -1,10 +1,11 @@
-html{
-    background-image: radial-gradient(circle at bottom left, rgba(187,77,205,1) 0%, rgba(54,54,54,1) 75%);
+html {
+    background-image: radial-gradient(circle at bottom left, rgba(187, 77, 205, 1) 0%, rgba(54, 54, 54, 1) 75%);
     background-size: 100%;
     background-color: #363636;
     background-repeat: no-repeat;
     height: 100vh;
 }
+
 body {
     color: #fff;
     margin: 0;
@@ -14,10 +15,13 @@ body {
 
 html {
     box-sizing: border-box;
-  }
-  *, *:before, *:after {
+}
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
-  }
+}
 
 .TitreGrandRafaella {
     font-family: "rafaella", sans-serif;
@@ -27,7 +31,7 @@ html {
 }
 
 .TitreTresGrandRafaella {
-    font-family: "Rafaella";
+    font-family: "Rafaella", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 36px;
@@ -64,6 +68,12 @@ html {
     margin-top: 0;
 }
 
+.TitreMoyenPoppins {
+    font-family: "poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
 .TitreTresGrandPoppins {
     font-family: "poppins", sans-serif;
     font-size: 44px;
@@ -76,6 +86,12 @@ html {
     font-size: 16px;
 }
 
+.ParagrapheMediumGras {
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
 .ParagrapheGras {
     font-family: "poppins", sans-serif;
     font-weight: 400;
@@ -84,13 +100,53 @@ html {
 
 .Paragraphe {
     font-family: "poppins", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 14px;
 }
 
 .miel {
-    width: 100%;
+    position: fixed;
+    left: -2rem;
+    top: -77rem;
 }
+
+.miel-animation {
+    animation-name: miel;
+    animation-duration: 1s;
+}
+
+
+
+@keyframes miel {
+    0% {
+        top: -77rem;
+    }
+
+    100% {
+        top: -20rem;
+    }
+
+}
+
+.miel2 {
+    position: fixed;
+    animation: miel2 1s;
+    animation-fill-mode: both;
+
+    left: -2rem
+}
+
+@keyframes miel2 {
+    0% {
+        top: -20rem;
+    }
+
+    100% {
+        top: 80rem;
+    }
+
+}
+
 
 .blur {
     -webkit-filter: blur(200px);
@@ -101,26 +157,27 @@ html {
 }
 
 .circle1 {
-   
+
     width: 451px;
     height: 451px;
     border-radius: 50%;
-    background-color: #BB4DCD ;
+    background-color: #BB4DCD;
     position: fixed;
     margin-left: -100%;
     margin-top: 80%;
-   
+
 }
+
 .circle2 {
-   
+
     width: 451px;
     height: 451px;
     border-radius: 50%;
-    background-color: #BB4DCD ;
+    background-color: #BB4DCD;
     position: fixed;
     margin-left: 130%;
     margin-top: -150%;
-   
+
 }
 
 .logotexte {
@@ -130,7 +187,7 @@ html {
     margin: 2rem;
 }
 
-.textelogo{
+.textelogo {
     line-height: 70%;
 }
 
@@ -141,7 +198,7 @@ html {
     text-transform: uppercase;
     line-height: 36px;
     margin: 0;
-    padding-top: 6.594rem;
+    padding-top: 20rem;
 }
 
 .landing-title--line {
@@ -153,12 +210,12 @@ html {
 }
 
 .landing-title--raf {
-        font-family: "rafaella", sans-serif;
+    font-family: "rafaella", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 37px;
     text-transform: capitalize;
-    
+
 }
 
 .landing-subtitle {
@@ -170,32 +227,35 @@ html {
 
 .create-account-button {
     width: 100%;
-    border: none; 
+    border: none;
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     color: #363636;
     background-color: #FCCB4E;
-    text-align: center; 
-    display: inline-block; 
-    font-size: 1rem; 
-    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
     font-family: "poppins", sans-serif;
     font-weight: 700;
     font-size: 14px;
     margin-top: 5.094rem;
 }
 
+.create-account-button:hover {
+    background-color: #FFE194;
+}
+
 .connect-to-account-button {
     width: 100%;
-    border: none; 
+    border: none;
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     color: #fff;
-    text-align: center; 
-    display: inline-block; 
-    font-size: 1rem; 
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
     text-decoration: none;
     font-family: "poppins", sans-serif;
     font-weight: 700;
@@ -212,26 +272,26 @@ html {
 }
 
 label {
-   
+
     display: block;
 
     font:
-      1rem 'Poppins',
- 
-  }
-  
-  input,
-  label {
+        1rem 'Poppins',
+
+}
+
+input,
+label {
     margin: 0.75rem 0;
-  }
-  
-.input{
+}
+
+.input {
     width: 100%;
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     border-color: #BB4DCD;
-    border-width:0.188rem;
+    border-width: 0.188rem;
     background-color: #363636;
     color: #fff;
     font-family: "poppins", sans-serif;
@@ -239,38 +299,38 @@ label {
     font-size: 14px;
 }
 
-.input:focus{
+.input:focus {
     width: 100%;
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     border-color: #D898E3;
-    border-width:0.188rem;
+    border-width: 0.188rem;
     background-color: #363636;
     color: #fff;
 }
 
 .boutonviolet {
-            width: 100%;
-            border: none; 
-            border-radius: 0.313rem;
-            padding-top: 0.75rem;
-            padding-bottom: 0.75rem;
-            color: #fff;
-            background-color: #BB4DCD;
-            text-align: center; 
-            display: inline-block; 
-            font-size: 1rem; 
-            text-decoration: none;
-            font-family: "poppins", sans-serif;
-            font-weight: 400;
-            font-size: 14px;
+    width: 100%;
+    border: none;
+    border-radius: 0.313rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    color: #fff;
+    background-color: #BB4DCD;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
 
-        }
+}
 
- .boutonviolet:active {
-            background-color: #D898E3;
-        }
+.boutonviolet:active {
+    background-color: #D898E3;
+}
 
 
 .main {
@@ -278,52 +338,231 @@ label {
 }
 
 .link {
-  display: flex;
-  justify-content: center; 
-  align-items: center;   
-  height: 3,6vh;
-  gap: 2.13rem;
-  margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3, 6vh;
+    gap: 2.13rem;
+    margin-top: 1.5rem;
 }
 
 .boutonjaune {
     width: 100%;
-    border: none; 
+    border: none;
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     color: #363636;
     background-color: #FCCB4E;
-    text-align: center; 
-    display: inline-block; 
-    font-size: 1rem; 
-    text-decoration: none; 
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: none;
     font-family: "poppins", sans-serif;
     font-weight: 700;
     font-size: 16px;
 }
 
 .boutonjaune:active {
-    background-color: #FFE194
-    ;
+    background-color: #FFE194;
 }
 
 .boutontransparent {
     width: 100%;
-    border: none; 
+    border: none;
     border-radius: 0.313rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     color: #fff;
     background-color: transparent;
-    text-align: center; 
-    display: inline-block; 
-    font-size: 1rem; 
-    text-decoration: none; 
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: none;
     font-family: "poppins", sans-serif;
     font-weight: 700;
     font-size: 16px;
     margin-top: 24px;
 }
 
+.notif-messages {
+    gap: 0.875rem;
+    margin-top: 2.25rem;
+    margin-left: 17.5rem;
+}
 
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-search {
+    width: 19.7rem;
+    height: 2.5rem;
+    border-radius: 0.25rem;
+    border-color: #BB4DCD;
+    background-color: rgba(192, 192, 192, 1);
+    margin-left: -35%;
+}
+
+.search-icon {
+    height: 1.75rem;
+    width: 1.75rem;
+    text-decoration: none;
+}
+
+.Suggestions {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+}
+
+.shorts {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+
+.cards {
+    height: 11.125rem;
+    border-radius: 0.25rem;
+}
+
+.genres {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+}
+
+.bento-genre {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.bento-haut {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+}
+
+.bento-mid {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+}
+
+.options {
+    position: absolute;
+    margin-left: 20.4rem;
+}
+
+.gab-profil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.06rem;
+}
+
+.chiffres {
+    display: flex;
+    flex-direction: row;
+    gap: 1.88rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.profil-bar {
+    display: flex;
+    gap: 3.125rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.grille-post {
+    display: flex;
+    margin-top: 2.44rem;
+    margin-left: 2.25rem;
+    gap: 1rem;
+}
+
+.cards-post {
+    width: 5.9375rem;
+    height: 11.125rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+}
+
+.back {
+    margin-left: 2.25rem;
+    margin-top: 3.44rem;
+}
+
+.titre-premium {
+    margin-left: 2.25rem;
+    margin-top: 3.87rem;
+}
+
+.mielody-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1875rem;
+}
+
+.mielody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.875rem;
+}
+.bodyVote {
+    box-sizing: border-box;
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 1.438rem;
+    margin-right: 1.438rem;
+    gap: 4rem;
+}
+
+.bodyCard {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.motjaune {
+    color: #FCCB4E;
+    font-weight: 700;
+}
+
+#swipper {
+    height: 70vh;
+    aspect-ratio: 2/3;
+    perspective: 1000px;
+    perspective-origin: center 50%;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.carteVote {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    transform: translateZ(calc(-30px * var(--i))) translateY(calc(-20px * var(--i))) rotate(calc(-4deg * var(--i)));
+    filter: drop-shadow(2px 2px 20px rgba(0, 0, 0, 0.5));
+    cursor: pointer;
+    user-select: none;
+}
+/* fin du code qui marche ap  
