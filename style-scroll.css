@@ -196,9 +196,9 @@ input[type="radio"]:checked+.myButton{
 }
 
 .user-king {
-        background-color: rgb(187, 77, 205);
+        background-color: rgb(252, 203, 78);
         border-radius: 100%;
-        height: 6.875rem
+        height: 6.875rem;
     
         box-shadow: 0 0 0 0 rgba(187, 77, 205, 1);
         transform: scale(1);
@@ -209,7 +209,7 @@ input[type="radio"]:checked+.myButton{
 .icon-profile-top {
         background-color: rgb(187, 77, 205);
         border-radius: 100%;
-        height: 7rem
+        height: 4rem;
     
         box-shadow: 0 0 0 0 rgba(187, 77, 205, 1);
         transform: scale(1);
@@ -217,9 +217,9 @@ input[type="radio"]:checked+.myButton{
 }
 
 .icon-profile-bottom {
-    background-color: rgb(252, 203, 78);
+    background-color: rgb(187, 77, 205);
     border-radius: 100%;
-    height: 7rem
+    height: 3rem;
 
 
     box-shadow: 0 0 0 0 rgba(252, 203, 78, 1);
@@ -242,4 +242,18 @@ input[type="radio"]:checked+.myButton{
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 rgba(246, 131, 156, 0);
 	}
+}
+
+.new-nav {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0.5rem 2rem 0.5rem;
+    background-color: rgba(54, 54, 54, 1);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
