@@ -257,3 +257,24 @@ input[type="radio"]:checked+.myButton{
     bottom: 0;
     width: 100%;
 }
+
+.Paragraphe {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+.timer-bar {
+    right: 0;
+    position: fixed;
+    border-radius: 118.75rem 0rem 0rem 118.75rem;
+    background: rgba(255, 255, 255, 0.20);
+    display: inline-flex;
+    padding: 0.6875rem 0.8rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.625rem;
+    margin-top: 36rem;
+}
